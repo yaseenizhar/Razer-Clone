@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -2.5rem;
+    margin: 5px 0px;
+    height: 7.9rem;
+}
+#logo{
+    margin:  34px 45px;
+}
+#logo img{
+    height: 47px;
+    margin: -28px 3px;
+    position: absolute;
+    top: 70px;
+    left: 13.9%;
+    cursor: pointer;
+}
+#navbar ul{
+    display: flex;
+    padding: 212px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 16px;
+    font-family: RazerF5, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+#navbar ul li a{
+    color: #bbb;
+    display: block;
+    padding: 0px 32.5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: white;
+}
+.box1{
+    background-color: #4bcd37;
+    position: absolute;
+    top: 75%;
+    width: 122%;
+    height: 2px;
+    left: 0rem;
+}
+.box2{
+    position: absolute;
+    left: 0.3%;
+    top: 76%;
+    border: 2;
+    height: 16%;
+    padding: 10px 50%;
+    background: #545454;
+}
+.box2 p{
+    position: inherit;
+    left: 31rem;
+    color: rgb(237, 237, 237);
+    font-family: Roboto, sans-serif;
+    font-size: 13.5px;
+    top: 15px;
+}
+.box2 p a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+.box2 p a:hover{
+    text-decoration: underline;
+}
+ a img{
+    width: 100%;
+    margin-top: -2.1%;
+}
+
+.learn{
+    position: absolute;
+    left: 43.5%;
+    bottom: 67%;
+    color: white;
+    font-size: 1.3125rem;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.learn a{
+    text-decoration: none;
+}
+.learn a p{
+    color: white;
+    text-decoration: none;
+}
+.learn a p:hover{
+    text-decoration: underline;
+}
+.buy{
+    position: absolute;
+    left: 52.7%;
+    bottom: 67%;
+    color: white;
+    font-size: 1.3125rem;
+    font-family: sans-serif;
+}
+.buy a{
+    text-decoration: none;
+}
+.buy a p{
+    color: white;
+}
+.buy a p:hover{
+    text-decoration: underline;
+}
+
+
+.learn a #arrow{
+    text-decoration: none;
+}
+
+
+#arrow{
+    position: absolute;
+    left: 50.5%;
+    bottom: 67.2%;
+    color: #9fe195;
+}
+
+#arrow1{
+    position: absolute;
+    left: 55.5%;
+    bottom: 67.2%;
+    color: #9fe195;
+}
+
+.box3{
+    position: absolute;
+    left: 0.3%;
+    top: 89.6%;
+    border: 2;
+    height: 1%;
+    padding: 0px 50%;
+    background: #545454
+}
+
+
+#chair img{
+    margin-top: 2px;
+}
+
+.box4{
+    position: absolute;
+    left: 0.3%;
+    top: 168.6%;
+    border: 2;
+    height: 1%;
+    padding: 0px 50%;
+    background: #545454;
+}
+
+#laptop img{
+    margin-top: 0;
+}
+
+
+.boxes{
+    position: absolute;
+    height: 36rem;
+    border: 11px solid #1c1c21;
+    left: 0.5%;
+    width: 98%;
+    background: black;
+}
+
+.box5{
+    position: absolute;
+    left: 0.3%;
+    top: 247.5%;
+    border: 2;
+    height: 1.2%;
+    padding: 0px 50%;
+    background: #545454;
+}
+
+.squarebox1{
+    position: absolute;
+    height: 36rem;
+    border: 11px solid #1c1c21;
+    left: 0.3%;
+    width: 98%;
+    bottom: -293%;;
+}
+
+.squarebox1 hr{
+    height: 6px;
+    border: 3px solid #1c1c21;
+    width: 36.8rem;
+    transform: rotate(90deg);
+    margin: auto;
+    top: 17.6rem;
+    left: 32%;
+    background: #1c1c21;
+    position: absolute;
+}
+
+
+#eclusive p{
+    position: absolute;
+    bottom: -12%;
+    left: 43.5%;
+    color: white;
+    font-size: 1.3125rem;
+}
